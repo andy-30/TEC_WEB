@@ -1,0 +1,42 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <title>Lista de supermercado</title>  <!--Título da página -->
+            <link rel = "stylesheet" href="style.css">   
+        </head>
+        <body>
+                <ul id = menu>
+                        <ul>
+                            <center>
+                            <li> <a href="index.html"> Página Inicial</a> </li>
+                            <li> <a href="campeonato.html"> Compeonato</a> </li>
+                            <li> <a href="lista_supermercado.html"> Supermecado</a> </li>
+                            <li> <a href="formcad_editora.html"> Cadastro de editora</a> </li>
+                            </center>
+                        </ul>
+                    </ul>
+            <p>Supermercado</p> 
+            <ol> <!--Lista numerada-->
+                <li>Carne</li><!--IT da Lista -->
+                <ol type = "a"> <!--sublista -->
+                    <li>porco</li>
+                    <li>peixe</li>
+                    <li>frango</li>
+                </ol>
+                <li>Vegetais</li><!--IT da Lista -->
+                <ol type = "a"> <!--sublista -->
+                    <li>cenoura</li>
+                    <li>tomate</li>
+                    <li>abobrinha</li>
+                </ol>
+                <li>Diversos</li><!--IT da Lista -->
+                <ol type = "a"> <!--sublista -->
+                    <li>arroz</li>
+                    <li>feijão</li>
+                    <li>farinha</li>
+                    <li>café</li>
+                </ol>
+            </ol>  
+            </body>
+    </html>
